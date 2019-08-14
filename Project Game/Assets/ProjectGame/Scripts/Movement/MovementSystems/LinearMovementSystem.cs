@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LinearMovementSystem : MonoBehaviour
 {
-    [SerializeField,Tooltip("The object to Move, if used in VR alongside HoverMovement assign camera's parent")]
+    [SerializeField,Tooltip("The object to Move, if used in VR alongside HoverMovement assign this with camera's parent")]
     private Transform objectToMove=null;
     [SerializeField,Tooltip("The front facing transform , typically this would be the camera")]
     private Transform forwardTransform = null;
